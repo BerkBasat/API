@@ -14,7 +14,24 @@ namespace API_Northwind.Controllers
 
         public IHttpActionResult GetProducts()
         {
-            return Ok(db.Products.ToList());
+            var product = db.Products.ToList();
+            return Ok(product);
+        }
+
+        public HttpResponseMessage GetProduct(int id)
+        {
+            Product product = db.Products.FirstOrDefault(x => x.ProductID == id);
+            if(product != null)
+            {
+                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.OK, product);
+                return response;
+            }
+            else
+            {
+                HttpResponseMessage errorResponse = Request.CreateResponse(HttpStatusCode.NotFound, "Product not found!");
+                return errorResponse;
+            }
+
         }
 
         public IHttpActionResult PostProduct(Product product)
