@@ -11,7 +11,7 @@ namespace API_Northwind.Models
 {
     using System;
     using System.Collections.Generic;
-    
+
     public partial class Product
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -19,7 +19,8 @@ namespace API_Northwind.Models
         {
             this.Order_Details = new HashSet<Order_Detail>();
         }
-    
+
+
         public int ProductID { get; set; }
         public string ProductName { get; set; }
         public Nullable<int> SupplierID { get; set; }
@@ -33,7 +34,7 @@ namespace API_Northwind.Models
     
         public virtual Category Category { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Order_Detail> Order_Details { get; set; }
+        public virtual IEnumerable<Order_Detail> Order_Details { get; set; }
         public virtual Supplier Supplier { get; set; }
     }
 }

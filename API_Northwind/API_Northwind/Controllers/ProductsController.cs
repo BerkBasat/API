@@ -31,7 +31,6 @@ namespace API_Northwind.Controllers
                 HttpResponseMessage errorResponse = Request.CreateResponse(HttpStatusCode.NotFound, "Product not found!");
                 return errorResponse;
             }
-
         }
 
         public IHttpActionResult PostProduct(Product product)
