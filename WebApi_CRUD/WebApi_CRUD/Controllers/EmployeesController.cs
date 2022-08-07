@@ -35,7 +35,6 @@ namespace WebApi_CRUD.Controllers
             }
         }
 
-        //todo: Update System.Reflection.TargetException hatası veriyor!
         [HttpPut]
         public IHttpActionResult UpdateEmployee (Employee employee)
         {
