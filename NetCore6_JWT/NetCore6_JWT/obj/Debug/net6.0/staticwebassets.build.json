@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "QVLszN7QPE2VxQsZArufa5EDVhmL+7Er/V5fC6IVf8o=",
+  "Source": "NetCore6_JWT",
+  "BasePath": "_content/NetCore6_JWT",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
