@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\RedisAPI",
+    "\\RedisAPI\\RedisAPI",
+    "\\RedisAPI\\RedisAPI\\Data"
   ],
+  "SelectedNode": "\\RedisAPI\\RedisAPI\\Data\\RedisPlatformRepo.cs",
   "PreviewInSolutionExplorer": false
 }
