@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uJg+wMiUW97RiQP+rKthSKnNLxf5IYI7dP+LJqRNx9J8p0Qvlapf/3e6RcK+KHQJLdgU7T8HbKnC73UidPyu0w==",
+  "dgSpecHash": "YWdyFpoM0lh9pcYSNMJXeqHLVJdLBpcFbDGDcGREj72Lguv92ikYoG4U0pcTkc8qh4oZg/fMAr8SPviVKpRRgw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Huawei\\source\\repos\\CloudCustomers\\CloudCustomers.UnitTests\\CloudCustomers.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\Huawei\\Desktop\\Github\\API\\CloudCustomers\\CloudCustomers.UnitTests\\CloudCustomers.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Huawei\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
@@ -108,9 +108,9 @@
     "C:\\Users\\Huawei\\.nuget\\packages\\xunit.extensibility.core\\2.4.1\\xunit.extensibility.core.2.4.1.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\xunit.extensibility.execution\\2.4.1\\xunit.extensibility.execution.2.4.1.nupkg.sha512",
     "C:\\Users\\Huawei\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.3\\xunit.runner.visualstudio.2.4.3.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.12\\microsoft.aspnetcore.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.12\\microsoft.windowsdesktop.app.ref.6.0.12.nupkg.sha512",
-    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.12\\microsoft.netcore.app.ref.6.0.12.nupkg.sha512"
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.13\\microsoft.aspnetcore.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.13\\microsoft.windowsdesktop.app.ref.6.0.13.nupkg.sha512",
+    "C:\\Users\\Huawei\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.13\\microsoft.netcore.app.ref.6.0.13.nupkg.sha512"
   ],
   "logs": []
 }
